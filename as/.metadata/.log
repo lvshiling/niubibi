@@ -1,0 +1,415 @@
+!SESSION 2013-01-17 11:50:26.159 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\source\Mobile\as
+
+!ENTRY org.eclipse.osgi 2 1 2013-01-17 11:51:44.004
+!MESSAGE NLS unused message: WhiteSpaceTabPage_try in: org.eclipse.jdt.internal.ui.preferences.formatter.FormatterMessages
+
+!ENTRY org.eclipse.jface 2 0 2013-01-17 15:55:44.800
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-01-17 15:55:44.800
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,在工作空间中查找所有声明,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@1a1e48ec)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,在工作空间中查找所有声明,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@1a1e48ec)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,工作空间中的声明,
+		在工作空间中搜索对所选元素的声明,
+		Category(org.eclipse.search.ui.category.search,搜索,搜索命令类别,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-01-17 15:55:44.800
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,在工作空间中查找所有引用,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@3a458b59)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,在工作空间中查找所有引用,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@3a458b59)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace,工作空间中的引用,
+		在工作空间中搜索对所选元素的引用,
+		Category(org.eclipse.search.ui.category.search,搜索,搜索命令类别,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2013-01-17 18:01:38.442
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-01-17 18:01:38.442
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.organize.autoindent,更正缩进,
+		,
+		Category(com.adobe.flexbuilder.as.editor.source.editing.category,ActionScript 源代码编辑,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,格式化活动元素,
+		格式化活动元素,
+		Category(org.eclipse.ui.category.edit,编辑,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.texteditor.TextOperationAction@7da4cc2a)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-01-17 18:01:38.442
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.organize.autoformat,应用格式化,
+		,
+		Category(com.adobe.flexbuilder.as.editor.source.editing.category,ActionScript 源代码编辑,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,格式化,
+		格式化所选内容,
+		Category(org.eclipse.ui.category.edit,编辑,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.ui.texteditor.TextOperationAction@4e5819d7)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-01-17 18:01:38.442
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.quick.outline,快速大纲,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,快速大纲,
+		显示编辑器输入的快速大纲,
+		Category(org.eclipse.ui.category.navigate,浏览,null,true),
+		org.eclipse.wst.sse.ui.internal.quickoutline.QuickOutlineHandler@7a089a6f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-01-17 18:01:38.442
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.go.to.definition,打开声明,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.editor,打开声明,
+		对所选元素打开编辑器,
+		Category(org.eclipse.ui.category.navigate,浏览,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.open.file.from.source,打开所选内容,
+		对所选链接打开编辑器,
+		Category(org.eclipse.ui.category.edit,编辑,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.wst.sse.ui.internal.hyperlink.OpenHyperlinkAction@4ad32c00)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-01-17 18:01:38.443
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.go.to.brace,转至匹配的中括号,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.core.ui.command.addPlugin,Add Maven Plugin,
+		Add Maven Plugin,
+		Category(org.eclipse.ui.category.edit,编辑,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.core.runtime.xml,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,匹配的中括号,
+		转至匹配的中括号,
+		Category(org.eclipse.ui.category.navigate,浏览,null,true),
+		org.eclipse.wst.sse.ui.StructuredTextEditor$GotoMatchingBracketHandler@6dedda60,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-01-17 18:01:38.443
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,切换注释,
+		切换注释,
+		Category(org.eclipse.ui.category.edit,编辑,null,true),
+		org.eclipse.wst.sse.ui.internal.handlers.ToggleLineCommentHandler@1a9c0d02,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(com.adobe.flexide.editorcore.add.comment,切换块注释,
+		,
+		Category(com.adobe.flexbuilder.editorcore.flex.edit,Flex 编辑,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-01-17 18:01:38.443
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.mxml.editor.ShowPreviousStateCommand,上一个状态,
+		,
+		Category(com.adobe.flexbuilder.mxml.editor.stateNav,MXML 状态可视化,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,删除块注释,
+		删除块注释,
+		Category(org.eclipse.ui.category.edit,编辑,null,true),
+		org.eclipse.wst.sse.ui.internal.handlers.RemoveBlockCommentHandler@7b1a0bf3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-01-17 18:01:38.443
+!MESSAGE A conflict occurred for CTRL+SHIFT+D:
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.eclipse.m2e.core.ui.command.addDependency,Add Maven Dependency,
+		Add Maven Dependency,
+		Category(org.eclipse.ui.category.edit,编辑,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.core.runtime.xml,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Display,显示,
+		显示对所选文本求值的结果,
+		Category(org.eclipse.debug.ui.category.run,运行/调试,运行/调试命令类别,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(com.adobe.flexide.editorcore.add.other.comment,添加其它注释,
+		,
+		Category(com.adobe.flexbuilder.editorcore.flex.edit,Flex 编辑,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+!SESSION 2013-01-22 15:52:14.545 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2013-01-22 16:23:03.040
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-01-22 16:23:03.040
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,在工作空间中查找所有声明,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@6f73f7f6)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,在工作空间中查找所有声明,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@6f73f7f6)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,工作空间中的声明,
+		在工作空间中搜索对所选元素的声明,
+		Category(org.eclipse.search.ui.category.search,搜索,搜索命令类别,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-01-22 16:23:03.040
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,在工作空间中查找所有引用,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@269c70a4)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,在工作空间中查找所有引用,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@269c70a4)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace,工作空间中的引用,
+		在工作空间中搜索对所选元素的引用,
+		Category(org.eclipse.search.ui.category.search,搜索,搜索命令类别,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.adobe.flexbuilder.debug 4 0 2013-01-22 16:47:17.154
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: com.adobe.flexbuilder.debug.FlexDebugPlugin 中的意外。束 com.adobe.flexbuilder.debug 中的 stop() 
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:791)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:565)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1161)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:595)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:691)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:598)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:390)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+Caused by: java.lang.NullPointerException
+	at com.adobe.flexbuilder.debug.model.FlexDebugTarget.waitFor(FlexDebugTarget.java:766)
+	at com.adobe.flexbuilder.debug.model.FlexDebugTarget.shutdown(FlexDebugTarget.java:884)
+	at com.adobe.flexbuilder.debug.FlexDebugPlugin.stop(FlexDebugPlugin.java:127)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	... 18 more
+Root exception:
+java.lang.NullPointerException
+	at com.adobe.flexbuilder.debug.model.FlexDebugTarget.waitFor(FlexDebugTarget.java:766)
+	at com.adobe.flexbuilder.debug.model.FlexDebugTarget.shutdown(FlexDebugTarget.java:884)
+	at com.adobe.flexbuilder.debug.FlexDebugPlugin.stop(FlexDebugPlugin.java:127)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:565)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1161)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:595)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:691)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:598)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:390)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SESSION 2013-01-22 17:34:07.357 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2013-01-22 17:35:32.989
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-01-22 17:35:32.989
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,在工作空间中查找所有声明,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@5298d146)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,在工作空间中查找所有声明,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@5298d146)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,工作空间中的声明,
+		在工作空间中搜索对所选元素的声明,
+		Category(org.eclipse.search.ui.category.search,搜索,搜索命令类别,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-01-22 17:35:32.989
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,在工作空间中查找所有引用,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@2ed37507)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,在工作空间中查找所有引用,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,导航,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@2ed37507)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace,工作空间中的引用,
+		在工作空间中搜索对所选元素的引用,
+		Category(org.eclipse.search.ui.category.search,搜索,搜索命令类别,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)

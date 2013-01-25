@@ -1,0 +1,509 @@
+Determining size of __int8 failed with the following output:
+Change Dir: /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make.exe "cmTryCompileExec1852704826/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1852704826.dir/build.make CMakeFiles/cmTryCompileExec1852704826.dir/build
+make[1]: 进入目录“/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp”
+/usr/bin/cmake.exe -E cmake_progress_report /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1852704826.dir/HAVE_MS_INT8.c.o
+/usr/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec1852704826.dir/HAVE_MS_INT8.c.o   -c /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_INT8.c
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_INT8.c:19:12: 错误：‘__int8’未声明(不在函数内)
+CMakeFiles/cmTryCompileExec1852704826.dir/build.make:60: recipe for target `CMakeFiles/cmTryCompileExec1852704826.dir/HAVE_MS_INT8.c.o' failed
+make[1]: 离开目录“/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp”
+make[1]: *** [CMakeFiles/cmTryCompileExec1852704826.dir/HAVE_MS_INT8.c.o] Error 1
+Makefile:117: recipe for target `cmTryCompileExec1852704826/fast' failed
+make: *** [cmTryCompileExec1852704826/fast] Error 2
+
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_INT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int8 failed with the following output:
+Change Dir: /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make.exe "cmTryCompileExec437152830/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec437152830.dir/build.make CMakeFiles/cmTryCompileExec437152830.dir/build
+make[1]: 进入目录“/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp”
+/usr/bin/cmake.exe -E cmake_progress_report /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec437152830.dir/HAVE_MS_UINT8.c.o
+/usr/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec437152830.dir/HAVE_MS_UINT8.c.o   -c /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:19:12: 错误：expected ‘)’ before ‘__int8’
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:20:12: 错误：expected ‘)’ before ‘__int8’
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:21:12: 错误：expected ‘)’ before ‘__int8’
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:22:12: 错误：expected ‘)’ before ‘__int8’
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:23:12: 错误：expected ‘)’ before ‘__int8’
+CMakeFiles/cmTryCompileExec437152830.dir/build.make:60: recipe for target `CMakeFiles/cmTryCompileExec437152830.dir/HAVE_MS_UINT8.c.o' failed
+make[1]: 离开目录“/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp”
+make[1]: *** [CMakeFiles/cmTryCompileExec437152830.dir/HAVE_MS_UINT8.c.o] Error 1
+Makefile:117: recipe for target `cmTryCompileExec437152830/fast' failed
+make: *** [cmTryCompileExec437152830/fast] Error 2
+
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int16 failed with the following output:
+Change Dir: /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make.exe "cmTryCompileExec1437687864/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1437687864.dir/build.make CMakeFiles/cmTryCompileExec1437687864.dir/build
+make[1]: 进入目录“/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp”
+/usr/bin/cmake.exe -E cmake_progress_report /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1437687864.dir/HAVE_MS_INT16.c.o
+/usr/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec1437687864.dir/HAVE_MS_INT16.c.o   -c /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_INT16.c
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_INT16.c:19:12: 错误：‘__int16’未声明(不在函数内)
+CMakeFiles/cmTryCompileExec1437687864.dir/build.make:60: recipe for target `CMakeFiles/cmTryCompileExec1437687864.dir/HAVE_MS_INT16.c.o' failed
+make[1]: 离开目录“/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp”
+make[1]: *** [CMakeFiles/cmTryCompileExec1437687864.dir/HAVE_MS_INT16.c.o] Error 1
+Makefile:117: recipe for target `cmTryCompileExec1437687864/fast' failed
+make: *** [cmTryCompileExec1437687864/fast] Error 2
+
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_INT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int16 failed with the following output:
+Change Dir: /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make.exe "cmTryCompileExec3189524186/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3189524186.dir/build.make CMakeFiles/cmTryCompileExec3189524186.dir/build
+make[1]: 进入目录“/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp”
+/usr/bin/cmake.exe -E cmake_progress_report /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3189524186.dir/HAVE_MS_UINT16.c.o
+/usr/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec3189524186.dir/HAVE_MS_UINT16.c.o   -c /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:19:12: 错误：expected ‘)’ before ‘__int16’
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:20:12: 错误：expected ‘)’ before ‘__int16’
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:21:12: 错误：expected ‘)’ before ‘__int16’
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:22:12: 错误：expected ‘)’ before ‘__int16’
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:23:12: 错误：expected ‘)’ before ‘__int16’
+CMakeFiles/cmTryCompileExec3189524186.dir/build.make:60: recipe for target `CMakeFiles/cmTryCompileExec3189524186.dir/HAVE_MS_UINT16.c.o' failed
+make[1]: 离开目录“/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp”
+make[1]: *** [CMakeFiles/cmTryCompileExec3189524186.dir/HAVE_MS_UINT16.c.o] Error 1
+Makefile:117: recipe for target `cmTryCompileExec3189524186/fast' failed
+make: *** [cmTryCompileExec3189524186/fast] Error 2
+
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int32 failed with the following output:
+Change Dir: /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make.exe "cmTryCompileExec1652664283/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1652664283.dir/build.make CMakeFiles/cmTryCompileExec1652664283.dir/build
+make[1]: 进入目录“/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp”
+/usr/bin/cmake.exe -E cmake_progress_report /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1652664283.dir/HAVE_MS_INT32.c.o
+/usr/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec1652664283.dir/HAVE_MS_INT32.c.o   -c /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_INT32.c
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_INT32.c:19:12: 错误：‘__int32’未声明(不在函数内)
+CMakeFiles/cmTryCompileExec1652664283.dir/build.make:60: recipe for target `CMakeFiles/cmTryCompileExec1652664283.dir/HAVE_MS_INT32.c.o' failed
+make[1]: 离开目录“/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp”
+make[1]: *** [CMakeFiles/cmTryCompileExec1652664283.dir/HAVE_MS_INT32.c.o] Error 1
+Makefile:117: recipe for target `cmTryCompileExec1652664283/fast' failed
+make: *** [cmTryCompileExec1652664283/fast] Error 2
+
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_INT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int32 failed with the following output:
+Change Dir: /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make.exe "cmTryCompileExec2970778879/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2970778879.dir/build.make CMakeFiles/cmTryCompileExec2970778879.dir/build
+make[1]: 进入目录“/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp”
+/usr/bin/cmake.exe -E cmake_progress_report /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2970778879.dir/HAVE_MS_UINT32.c.o
+/usr/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec2970778879.dir/HAVE_MS_UINT32.c.o   -c /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:19:12: 错误：expected ‘)’ before ‘__int32’
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:20:12: 错误：expected ‘)’ before ‘__int32’
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:21:12: 错误：expected ‘)’ before ‘__int32’
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:22:12: 错误：expected ‘)’ before ‘__int32’
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:23:12: 错误：expected ‘)’ before ‘__int32’
+CMakeFiles/cmTryCompileExec2970778879.dir/build.make:60: recipe for target `CMakeFiles/cmTryCompileExec2970778879.dir/HAVE_MS_UINT32.c.o' failed
+make[1]: 离开目录“/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp”
+make[1]: *** [CMakeFiles/cmTryCompileExec2970778879.dir/HAVE_MS_UINT32.c.o] Error 1
+Makefile:117: recipe for target `cmTryCompileExec2970778879/fast' failed
+make: *** [cmTryCompileExec2970778879/fast] Error 2
+
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make.exe "cmTryCompileExec3920167750/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3920167750.dir/build.make CMakeFiles/cmTryCompileExec3920167750.dir/build
+make[1]: 进入目录“/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp”
+/usr/bin/cmake.exe -E cmake_progress_report /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3920167750.dir/HAVE_MS_INT64.c.o
+/usr/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec3920167750.dir/HAVE_MS_INT64.c.o   -c /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_INT64.c
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_INT64.c:19:12: 错误：‘__int64’未声明(不在函数内)
+CMakeFiles/cmTryCompileExec3920167750.dir/build.make:60: recipe for target `CMakeFiles/cmTryCompileExec3920167750.dir/HAVE_MS_INT64.c.o' failed
+make[1]: 离开目录“/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp”
+make[1]: *** [CMakeFiles/cmTryCompileExec3920167750.dir/HAVE_MS_INT64.c.o] Error 1
+Makefile:117: recipe for target `cmTryCompileExec3920167750/fast' failed
+make: *** [cmTryCompileExec3920167750/fast] Error 2
+
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int64 failed with the following output:
+Change Dir: /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make.exe "cmTryCompileExec2395715815/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2395715815.dir/build.make CMakeFiles/cmTryCompileExec2395715815.dir/build
+make[1]: 进入目录“/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp”
+/usr/bin/cmake.exe -E cmake_progress_report /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2395715815.dir/HAVE_MS_UINT64.c.o
+/usr/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec2395715815.dir/HAVE_MS_UINT64.c.o   -c /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:19:12: 错误：expected ‘)’ before ‘__int64’
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:20:12: 错误：expected ‘)’ before ‘__int64’
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:21:12: 错误：expected ‘)’ before ‘__int64’
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:22:12: 错误：expected ‘)’ before ‘__int64’
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:23:12: 错误：expected ‘)’ before ‘__int64’
+CMakeFiles/cmTryCompileExec2395715815.dir/build.make:60: recipe for target `CMakeFiles/cmTryCompileExec2395715815.dir/HAVE_MS_UINT64.c.o' failed
+make[1]: 离开目录“/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp”
+make[1]: *** [CMakeFiles/cmTryCompileExec2395715815.dir/HAVE_MS_UINT64.c.o] Error 1
+Makefile:117: recipe for target `cmTryCompileExec2395715815/fast' failed
+make: *** [cmTryCompileExec2395715815/fast] Error 2
+
+/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function strtold exists failed with the following output:
+Change Dir: /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make.exe "cmTryCompileExec3805530177/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3805530177.dir/build.make CMakeFiles/cmTryCompileExec3805530177.dir/build
+make[1]: 进入目录“/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp”
+/usr/bin/cmake.exe -E cmake_progress_report /cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3805530177.dir/CheckFunctionExists.c.o
+/usr/bin/gcc.exe   -DCHECK_FUNCTION_EXISTS=strtold   -o CMakeFiles/cmTryCompileExec3805530177.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8.9/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3805530177.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec3805530177.dir/link.txt --verbose=1
+/usr/bin/gcc.exe     -DCHECK_FUNCTION_EXISTS=strtold  -Wl,--enable-auto-import  CMakeFiles/cmTryCompileExec3805530177.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3805530177.exe -Wl,--out-implib,libcmTryCompileExec3805530177.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+CMakeFiles/cmTryCompileExec3805530177.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:(.text+0xc): undefined reference to `_strtold'
+collect2: ld 返回 1
+CMakeFiles/cmTryCompileExec3805530177.dir/build.make:91: recipe for target `cmTryCompileExec3805530177.exe' failed
+make[1]: 离开目录“/cygdrive/d/source/Mobile/server/libs/mysql-connector-c++-1.1.1/CMakeFiles/CMakeTmp”
+make[1]: *** [cmTryCompileExec3805530177.exe] Error 1
+Makefile:117: recipe for target `cmTryCompileExec3805530177/fast' failed
+make: *** [cmTryCompileExec3805530177/fast] Error 2
+
+
