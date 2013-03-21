@@ -1,0 +1,4 @@
+cd /cygdrive/c/Users/Administrator/AppData/Roaming/Macromedia/Flash\ Player/Logs
+ffmpeg.exe -re  -i test.mp4 -c copy -f flv rtmp://localhost/myapp/1
+ffplay rtmp://localhost/myapp/1
+is_proto_common.proto
